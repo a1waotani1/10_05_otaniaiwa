@@ -43,6 +43,6 @@ if ($status == false) {
     exit();
 } else {
     // 正常にSQLが実行された場合は入力ページファイルに移動し，入力ページの処理を実行する
-    header("Location:user_profile.php");
+    header("Location:homepage.php");
     exit();
 }
